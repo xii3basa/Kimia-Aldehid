@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kimia Corner | Aldehid</title>
+<style>
+:root {
+  --pink: #f7dce7;
+  --purple: #e8e0fa;
+  --mint: #dff3e8;
+  --cream: #fffaf4;
+  --ink: #51485d;
+  --accent: #9575cd;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.7;
+}
+header {
+  padding: 34px 18px;
+  text-align: center;
+  background: linear-gradient(135deg, var(--pink), var(--purple), var(--mint));
+}
+header h1 { margin: 0; font-size: 2.2rem; }
+header p { margin: 8px 0 0; }
+nav {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0 2px 10px #51485d12;
+}
+nav a {
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--purple);
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: .9rem;
+}
+main { max-width: 900px; margin: auto; padding: 18px; }
+section {
+  background: white;
+  border-radius: 20px;
+  padding: 22px;
+  margin: 20px 0;
+  box-shadow: 0 5px 18px #51485d0d;
+  scroll-margin-top: 90px;
+}
+h2 { color: #8967b7; margin-top: 0; }
+h3 { color: #a36b8c; }
+.highlight {
+  background: var(--mint);
+  padding: 14px;
+  border-radius: 14px;
+}
+.formula {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: var(--pink);
+  border-radius: 14px;
+  padding: 15px;
+  margin: 12px 0;
+}
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 440px; }
+th, td {
+  border: 1px solid #e7deef;
+  padding: 10px;
+  text-align: left;
+}
+th { background: var(--purple); }
+tr:nth-child(even) { background: #fffafd; }
+.card {
+  background: #fff7fb;
+  border-left: 5px solid #e8b9d0;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+button {
+  background: var(--accent);
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  padding: 11px 17px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+}
+button:hover { opacity: .9; }
+.quiz-question {
+  padding: 12px;
+  margin: 12px 0;
+  background: #f8f4ff;
+  border-radius: 12px;
+}
+label { display: block; margin: 6px 0; }
+#hasil { font-weight: bold; margin-top: 12px; }
+footer {
+  text-align: center;
+  padding: 25px;
+  background: var(--purple);
+}
+.small { font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🧪 Kimia Corner</h1>
+  <p>Belajar Kimia Organik dengan Seru dan Santai</p>
+  <p><b>Materi: Aldehid (Alkanal)</b></p>
+</header>
+
+<nav>
+  <a href="#gugus">Gugus Fungsi</a>
+  <a href="#nama">Tata Nama</a>
+  <a href="#isomer">Isomer</a>
+  <a href="#sifat">Sifat</a>
+  <a href="#guna">Kegunaan</a>
+  <a href="#kuis">Kuis</a>
+</nav>
+
+<main>
+<section id="beranda">
+  <h2>🌷 Selamat Datang!</h2>
+  <p>Website ini membahas senyawa aldehid, salah satu kelompok senyawa karbon yang memiliki gugus karbonil di ujung rantai karbon.</p>
+  <div class="highlight">
+    <b>Tujuan belajar:</b> mengenali gugus fungsi aldehid, memberi nama senyawa rantai lurus dan bercabang, memahami isomer, sifat, kegunaan, serta latihan soal.
+  </div>
+</section>
+
+<section id="gugus">
+  <h2>1. Gugus Fungsi Aldehid</h2>
+  <p>Aldehid adalah senyawa organik yang memiliki gugus fungsi <b>–CHO</b>. Gugus ini terdiri atas karbonil (C=O) yang terikat pada satu atom hidrogen dan satu gugus karbon.</p>
+  <div class="formula">R–C(=O)–H &nbsp; atau &nbsp; R–CHO</div>
+  <p><b>R</b> melambangkan gugus alkil atau bagian rantai karbon. Untuk aldehid sederhana, rumus umumnya adalah <b>CₙH₂ₙO</b> (aldehid jenuh rantai terbuka).</p>
+  <div class="card">
+    <b>Ciri penting:</b> gugus –CHO selalu berada di ujung rantai karbon. Dalam tata nama IUPAC, nama aldehid umumnya berakhiran <b>-al</b>.
+  </div>
+</section>
+
+<section id="nama">
+  <h2>2. Tata Nama Aldehid</h2>
+  <h3>A. Rantai lurus</h3>
+  <p>Pilih rantai utama yang mengandung gugus –CHO. Atom karbon pada –CHO dihitung sebagai karbon nomor 1. Nama alkana diubah dengan mengganti akhiran menjadi <b>-al</b>.</p>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Jumlah C</th><th>Rumus struktur singkat</th><th>Nama</th></tr>
+    <tr><td>1</td><td>H–CHO</td><td>Metanal</td></tr>
+    <tr><td>2</td><td>CH₃–CHO</td><td>Etanal</td></tr>
+    <tr><td>3</td><td>CH₃–CH₂–CHO</td><td>Propanal</td></tr>
+    <tr><td>4</td><td>CH₃–CH₂–CH₂–CHO</td><td>Butanal</td></tr>
+    <tr><td>5</td><td>CH₃–(CH₂)₃–CHO</td><td>Pentanal</td></tr>
+    <tr><td>6</td><td>CH₃–(CH₂)₄–CHO</td><td>Heksanal</td></tr>
+  </table>
+  </div>
+
+  <h3>B. Rantai bercabang</h3>
+  <p>Pilih rantai terpanjang yang memuat karbon –CHO. Karbon gugus aldehid menjadi nomor 1, kemudian tentukan posisi cabang dan nama cabangnya.</p>
+  <div class="card">
+    <b>Contoh 1: 2-metilpropanal</b><br>
+    Rumus struktur: CH₃–CH(CH₃)–CHO<br>
+    Rantai utama memiliki 3 karbon, dengan cabang metil pada karbon nomor 2.
+  </div>
+  <div class="card">
+    <b>Contoh 2: 2-metilbutanal</b><br>
+    Rumus struktur: CH₃–CH₂–CH(CH₃)–CHO<br>
+    Rantai utama memiliki 4 karbon, dengan cabang metil pada karbon nomor 2 jika dihitung dari karbon –CHO.
+  </div>
+</section>
+
+<section id="isomer">
+  <h2>3. Isomer Aldehid</h2>
+  <p>Isomer adalah senyawa yang memiliki rumus molekul sama, tetapi susunan atom atau strukturnya berbeda.</p>
+  <div class="card">
+    <b>A. Isomer rantai</b><br>
+    Butanal dan 2-metilpropanal sama-sama memiliki rumus molekul C₄H₈O, tetapi susunan rantai karbonnya berbeda.
+  </div>
+  <div class="card">
+    <b>B. Isomer gugus fungsi</b><br>
+    Aldehid dan keton dapat memiliki rumus molekul sama. Contohnya propanal (CH₃CH₂CHO) dan propanon (CH₃COCH₃), keduanya memiliki rumus C₃H₆O tetapi gugus fungsinya berbeda.
+  </div>
+</section>
+
+<section id="sifat">
+  <h2>4. Sifat Fisika dan Kimia</h2>
+  <h3>A. Sifat fisika</h3>
+  <ul>
+    <li>Gugus karbonil bersifat polar.</li>
+    <li>Aldehid bermassa molekul rendah umumnya mudah menguap.</li>
+    <li>Metanal berupa gas pada suhu ruang, sedangkan aldehid lain dapat berupa cairan.</li>
+    <li>Aldehid rantai pendek dapat larut dalam air; kelarutan menurun ketika rantai karbon bertambah panjang.</li>
+    <li>Titik didihnya umumnya lebih tinggi daripada alkana dengan massa molekul sebanding, tetapi lebih rendah daripada alkohol sebanding.</li>
+  </ul>
+  <h3>B. Sifat kimia</h3>
+  <ul>
+    <li><b>Oksidasi:</b> aldehid dapat dioksidasi menjadi asam karboksilat.</li>
+    <li><b>Reduksi:</b> aldehid dapat direduksi menjadi alkohol primer.</li>
+    <li><b>Uji Tollens:</b> banyak aldehid memberikan hasil cermin perak.</li>
+    <li><b>Uji Fehling:</b> aldehid alifatik umumnya menghasilkan endapan merah bata.</li>
+  </ul>
+  <p class="small">Pengujian kimia dilakukan di laboratorium dengan pengawasan guru dan prosedur keselamatan yang tepat.</p>
+</section>
+
+<section id="guna">
+  <h2>5. Kegunaan Aldehid</h2>
+  <div class="card">
+    <b>Metanal (formaldehida)</b><br>
+    Digunakan dalam pembuatan resin dan berbagai bahan industri. Formalin merupakan larutan formaldehida yang digunakan untuk keperluan tertentu di laboratorium dan industri, bukan untuk makanan.
+  </div>
+  <div class="card">
+    <b>Etanal (asetaldehida)</b><br>
+    Digunakan sebagai bahan antara dalam pembuatan berbagai senyawa kimia.
+  </div>
+  <div class="card">
+    <b>Benzaldehida</b><br>
+    Memiliki aroma khas seperti almond dan digunakan dalam industri pewangi serta perisa sesuai aturan penggunaannya.
+  </div>
+  <div class="card">
+    <b>Vanilin dan sinamaldehida</b><br>
+    Senyawa yang memiliki gugus aldehid dan berperan dalam aroma vanila serta kayu manis.
+  </div>
+  <p><b>Catatan keselamatan:</b> formaldehida dapat berbahaya bagi kesehatan. Jangan mencicipi atau menghirup bahan kimia secara langsung.</p>
+</section>
+
+<section id="kuis">
+  <h2>6. Contoh Soal dan Kuis 📝</h2>
+
+  <h3>Soal 1</h3>
+  <p>Apa gugus fungsi aldehid?</p>
+  <div class="quiz-question">
+    <label><input type="radio" name="q1" value="a"> –OH</label>
+    <label><input type="radio" name="q1" value="b"> –CHO</label>
+    <label><input type="radio" name="q1" value="c"> –COOH</label>
+  </div>
+
+  <h3>Soal 2</h3>
+  <p>Apakah nama senyawa CH₃–CH₂–CHO?</p>
+  <div class="quiz-question">
+    <label><input type="radio" name="q2" value="a"> Propanal</label>
+    <label><input type="radio" name="q2" value="b"> Propanon</label>
+    <label><input type="radio" name="q2" value="c"> Propanol</label>
+  </div>
+
+  <h3>Soal 3</h3>
+  <p>Pasangan manakah yang merupakan isomer rantai?</p>
+  <div class="quiz-question">
+    <label><input type="radio" name="q3" value="a"> Metanal dan etanal</label>
+    <label><input type="radio" name="q3" value="b"> Butanal dan 2-metilpropanal</label>
+    <label><input type="radio" name="q3" value="c"> Propanal dan butanal</label>
+  </div>
+
+  <button onclick="periksaKuis()">Periksa Jawaban</button>
+  <p id="hasil" aria-live="polite"></p>
+</section>
+
+<section id="penutup">
+  <h2>🌸 Kesimpulan</h2>
+  <p>Aldehid merupakan senyawa organik dengan gugus fungsi –CHO. Aldehid diberi nama dengan akhiran -al, dapat mengalami reaksi oksidasi dan reduksi, serta memiliki berbagai kegunaan dalam industri kimia, pewangi, dan bahan antara.</p>
+  <p><b>Disusun untuk:</b> Tugas Kimia<br>
+  <b>Materi:</b> Aldehid</p>
+<b>Nama Anggota:</b> Adnan, Bintang, Syakira, Azalia</p>
+</section>
+</main>
+
+<footer>
+  <p>🌷 Kimia Corner — Belajar Kimia Jadi Menyenangkan 🌷</p>
+</footer>
+
+<script>
+function periksaKuis() {
+  const kunci = { q1: "b", q2: "a", q3: "b" };
+  let skor = 0;
+  let terisi = 0;
+  for (const soal in kunci) {
+    const jawaban = document.querySelector(
+      'input[name="' + soal + '"]:checked'
+    );
+    if (jawaban) {
+      terisi++;
+      if (jawaban.value === kunci[soal]) skor++;
+    }
+  }
+  const hasil = document.getElementById("hasil");
+  if (terisi < 3) {
+    hasil.textContent = "Jawab ketiga soal dulu, ya! Kamu baru menjawab " + terisi + " dari 3 soal.";
+  } else {
+    hasil.textContent = "Nilai kamu: " + skor + "/3. " +
+      (skor === 3 ? "Hebat, semua benar! 🎉" : "Tetap semangat belajar! Periksa lagi materinya, ya.");
+  }
+}
+</script>
+</body>
+</html>
